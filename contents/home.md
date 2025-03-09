@@ -1,15 +1,12 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![fridayfang](https://img.shields.io/badge/fridayfang-github-blue?logo=github)](https://github.com/fridayfang)
 
-He is currently pursuing a Master's Degree in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
+#### 教育
+硕士, 计算机科学与技术, 北京大学, 2019—2022.\
+本科, 计算机科学与技术, 中国科学院大学, 2015—2019.
 
-#### Email
-sli[at]cumt.edu.cn
-
-#### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025 (expected).\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+## 项目
 
 #### Research Interests
 Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
