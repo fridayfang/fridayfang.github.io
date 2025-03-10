@@ -4,9 +4,7 @@
 - 基于预测-决策-规划分层设计思想，采用 Grouped-MCTS 方法多车协同决策规划
 - 针对场景分布的真实性，采用 diffusion 生成和硬规则约束进行优化
 - 完成交通流能力升级，强化停车场、驾校等场景的交互能力，支持 E2E 业务避障效果提升
-<video width="560" height="315" controls>
-  <source src="static/assets/img/attention.mp4" type="video/mp4">
-</video>
+
 
 #### 数据增强
 合成数据能低成本的获取真实路测难以快速采集的数据，通过场景泛化手段增强合成数据和高危 case 的场景
