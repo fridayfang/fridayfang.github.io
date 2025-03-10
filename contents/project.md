@@ -17,4 +17,8 @@
     <source src="static/assets/img/attention.mp4" type="video/mp4">
   </video>
   <figcaption>基于注意力机制识别重要障碍物</figcaption>
+  <video width="560" height="315" controls>
+    <source src="static/assets/img/attention.mp4" type="video/mp4">
+  </video>
+  <figcaption>基于注意力机制识别重要障碍物</figcaption>
 </figure>
