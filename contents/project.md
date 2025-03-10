@@ -12,13 +12,17 @@
 - `特殊物体与感知优化`:合成覆盖水马、倒地汽车、轮胎、扫帚等特殊物体数据，改善感知在特殊场景视距 (箱子:8m->28m)与稳定性不足问题
 - `场景多样性覆盖`: 合成覆盖掰出、主辅路、稠密车流、绕行等多种场景数据，缓解 PnC 场景不均衡问题
 
-<figure style="text-align: center; margin: 20px auto;">
-  <video width="560" height="315" controls>
-    <source src="static/assets/img/attention.mp4" type="video/mp4">
-  </video>
-  <figcaption>基于注意力机制识别重要障碍物</figcaption>
-  <video width="560" height="315" controls>
-    <source src="static/assets/img/attention.mp4" type="video/mp4">
-  </video>
-  <figcaption>基于注意力机制识别重要障碍物</figcaption>
-</figure>
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="margin: 20px;">
+    <video width="560" height="315" controls>
+      <source src="static/assets/img/attention.mp4" type="video/mp4">
+    </video>
+    <figcaption>基于注意力机制识别重要障碍物</figcaption>
+  </figure>
+  <figure style="margin: 20px;">
+    <video width="560" height="315" controls>
+      <source src="static/assets/img/fuzzing_demo.mp4" type="video/mp4">
+    </video>
+    <figcaption>对重要障碍物进行扰动</figcaption>
+  </figure>
+</div>
