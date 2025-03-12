@@ -16,7 +16,10 @@
       <source src="static/assets/img/diffusion_demo.mp4" type="video/mp4">
     </video>
     <figcaption>基于 diffusion 的场景初始化</figcaption>
-    <video width="560" height="315" controls>
+    
+  </figure>
+  <figure style="margin: 20px;">
+  <video width="560" height="315" controls>
       <source src="static/assets/img/tf_demo_2.mp4" type="video/mp4">
     </video>
     <figcaption>交通流效果</figcaption>
