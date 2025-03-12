@@ -8,9 +8,16 @@
 针对目前交通流功能单一、交互性不够，上线一套分层架构的交通流框架, 实现在停车场、驾校、
 高速路、城区路等场景仿真能力落地
 - `分层设计`: 基于预测-决策-规划分层设计思想，采用 Grouped-MCTS 方法多车协同决策规划
-- `真实性优化`: 针对场景分布的真实性，采用 diffusion 生成和硬规则约束进行优化
+- `真实性优化`: 针对场景分布的真实性，采用 diffusion 生成和guided sampling初始化场景
 - `业务应用`: 完成交通流能力升级，强化停车场、驾校等场景的交互能力，支持 E2E 业务避障效果提升
-
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="margin: 20px;">
+    <video width="560" height="315" controls>
+      <source src="static/assets/img/diffusion_demo.mp4" type="video/mp4">
+    </video>
+    <figcaption>基于 diffusion 的场景初始化</figcaption>
+  </figure>
+</div>
 
 #### 数据增强
 利用场景泛化和仿真数据，低成本生成真实路测中难以快速采集的数据，从而扩充高风险case场景和合成数据
